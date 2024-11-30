@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap");
+
+body {
+  cursor: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/56623a2e-23c6-413a-9af5-ad0d09f45bfa/dg3hvtc-8ee894cb-9fb2-4868-9411-3d953fbbffa4.png/v1/fill/w_1280,h_1095/snorlax_head_by_navedame_dg3hvtc-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA5NSIsInBhdGgiOiJcL2ZcLzU2NjIzYTJlLTIzYzYtNDEzYS05YWY1LWFkMGQwOWY0NWJmYVwvZGczaHZ0Yy04ZWU4OTRjYi05ZmIyLTQ4NjgtOTQxMS0zZDk1M2ZiYmZmYTQucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.t4Tu4Zgf8bWcHunmqa4PNHrhN0_M8stDYiQQJUFt7Y4"),
+    auto;
+}
+
+.main_text {
+  color: white;
+  font-family: "Literata", serif;
+  font-weight: 300;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+@media screen and (max-width: 750px) {
+  .main_text {
+    color: white;
+    font-family: "Literata", serif;
+    font-weight: 300;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+}
+
+audio::-webkit-media-controls {
+  display: none;
+}
